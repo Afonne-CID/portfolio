@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .specialCharColor::before {
+    content: '{';
+    color: "#dce3de";
+}
+
+.specialCharColor::after {
+    content: '}';
+    color: "#dce3de";
+}
+
+.specialCharColor::before {
+    content: '<';
+    color: "#dce3de";
+}
+
+.specialCharColor::after {
+    content: '/>';
+    color: "#dce3de";
+} */
