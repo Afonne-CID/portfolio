@@ -15,18 +15,21 @@ const Widget: React.FC<WidgetProps> = ({ img, info, link }) => {
 
     return (
         <div
-            className='
+            className={
+                `
                 flex
                 flex-col
                 mb-2
                 rounded-full
-                bg-[#dce3de]
+                bg-[#92e0a7]
                 md:w-[270px]
                 w-[80%]
                 h-[100px]
                 justify-center
                 items-center
-            '
+                `
+            }
+            // bg-[${isDarkMode ? '#d1d8e3' : '#92e0a7'}]
             onClick={handleWidgetClick}
         >
            <img 
